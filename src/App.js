@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Weather from "./Weather";
 
@@ -6,12 +5,13 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather defaultCity="Kyiv" />
         <footer>
           This project was coded by{" "}
           <a
             href="https://entry-level-web-developer-cv.netlify.app/"
             target="_blank"
+            rel="noreferrer"
           >
             {" "}
             Anna N. Tymoshenko{" "}
@@ -20,6 +20,7 @@ function App() {
           <a
             href="https://github.com/AnnaNatali/weather-app-react"
             target="_blank"
+            rel="noreferrer"
           >
             {" "}
             open-sourced on GitHub
