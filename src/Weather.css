@@ -2,7 +2,7 @@
   background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
   font-family: arial, sans-serif;
   border: 1px solid #ace0f9;
-  color: rgb(14, 155, 242);
+  color: rgb(15, 148, 230);
   padding: 16px;
   border-radius: 4px;
 }
@@ -29,13 +29,13 @@
 }
 .Weather .temperature {
   font-weight: bold;
-  color: rgb(33, 33, 33);
+  color: rgb(69, 66, 66);
   font-size: 54px;
   line-height: 54px;
   font-weight: 400;
 }
 .Weather .unit {
-  color: rgb(33, 33, 33);
+  color: rgb(69, 66, 66);
   font-size: 16px;
   font-weight: 400;
   position: relative;
